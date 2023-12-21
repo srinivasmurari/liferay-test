@@ -1,0 +1,9 @@
+apiDir: "../sidgs-luxury-homes-property-hosting-headless-api/src/main/java"
+apiPackagePath: "com.sidgs.luxury.homes.property.hosting.headless"
+application:
+    baseURI: "/pZ"
+    className: "SidgsLuxuryHomesPropertyHostingHeadlessApplication"
+    name: "SidgsLuxuryHomesPropertyHostingHeadless"
+author: "MuraliMohan"
+clientDir: "../sidgs-luxury-homes-property-hosting-headless-client/src/main/java"
+testDir: "../sidgs-luxury-homes-property-hosting-headless-test/src/testIntegration/java"

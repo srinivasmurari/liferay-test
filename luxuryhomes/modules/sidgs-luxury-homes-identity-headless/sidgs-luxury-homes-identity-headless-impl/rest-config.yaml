@@ -1,0 +1,9 @@
+apiDir: "../sidgs-luxury-homes-identity-headless-api/src/main/java"
+apiPackagePath: "com.sidgs.luxury.homes.identity.headless"
+application:
+    baseURI: "/vZ"
+    className: "SidgsLuxuryHomesIdentityHeadlessApplication"
+    name: "SidgsLuxuryHomesIdentityHeadless"
+author: "MuraliMohanSIDGlobal"
+clientDir: "../sidgs-luxury-homes-identity-headless-client/src/main/java"
+testDir: "../sidgs-luxury-homes-identity-headless-test/src/testIntegration/java"

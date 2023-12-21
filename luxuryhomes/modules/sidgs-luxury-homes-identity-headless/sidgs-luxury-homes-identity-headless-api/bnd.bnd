@@ -1,0 +1,6 @@
+Bundle-Name: sidgs-luxury-homes-identity-headless-api
+Bundle-SymbolicName: com.sidgs.luxury.homes.identity.headless.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.sidgs.luxury.homes.identity.headless.dto.v1_0,\
+	com.sidgs.luxury.homes.identity.headless.resource.v1_0

@@ -1,0 +1,6 @@
+Bundle-Name: sidgs-luxury-homes-property-hosting-headless-api
+Bundle-SymbolicName: com.sidgs.luxury.homes.property.hosting.headless.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.sidgs.luxury.homes.property.hosting.headless.dto.v1_0,\
+	com.sidgs.luxury.homes.property.hosting.headless.resource.v1_0

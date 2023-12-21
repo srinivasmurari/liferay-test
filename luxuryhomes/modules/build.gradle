@@ -1,0 +1,29 @@
+
+// copy all the jars created to one folder
+// easy to transport and sync :)
+
+task buildJarsforJavaModules(
+        dependsOn:[
+        "sidgs-luxury-homes-identity-headless:sidgs-luxury-homes-identity-headless-api:build",
+        "sidgs-luxury-homes-identity-headless:sidgs-luxury-homes-identity-headless-impl:build",
+        "sidgs-luxury-homes-identity-service:build",
+        "sidgs-luxury-homes-notification-service:build",
+        "sidgs-luxury-homes-property-hosting-headless:sidgs-luxury-homes-property-hosting-headless-api:build",
+        "sidgs-luxury-homes-property-hosting-headless:sidgs-luxury-homes-property-hosting-headless-impl:build",
+        "sidgs-luxury-homes-property-hosting-lookup:sidgs-luxury-homes-property-hosting-lookup-api:build",
+        "sidgs-luxury-homes-property-hosting-lookup:sidgs-luxury-homes-property-hosting-lookup-service:build",
+        "sidgs-luxury-homes-property-hosting-service:build"
+        ]) {
+
+    doLast {
+        ant.echo("Using Project Directory " + projectDir);
+        ant.copy (todir: buildDir , flatten:true) {
+            fileset(dir: projectDir) {
+                include (name: "**/build/libs/*.jar")
+                include (name: "**/dist/*.jar")
+            }
+        }
+    }
+}
+
+

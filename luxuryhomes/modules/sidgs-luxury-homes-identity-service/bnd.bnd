@@ -1,0 +1,5 @@
+Bundle-Name: sidgs-luxury-homes-identity-service
+Bundle-SymbolicName: com.sidgs.luxury.homes.identity.service
+Bundle-Version: 1.0.0
+Export-Package: \
+	com.sidgs.luxury.homes.identity.service

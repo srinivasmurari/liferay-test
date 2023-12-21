@@ -1,0 +1,5 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+	compileOnly project(":modules:sidgs-luxury-homes-identity-headless:sidgs-luxury-homes-identity-headless-api")
+	compileOnly project(":modules:sidgs-luxury-homes-notification-service")
+}
